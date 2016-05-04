@@ -3864,3 +3864,27 @@ footer {
     footer ul li a {
       color: #fff;
       padding: .2rem 0 !important; }
+
+@media screen and (max-width: 1023px) {
+  header {
+    text-align: center; }
+  #mainNav {
+    display: inline-block;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 639px) {
+  header {
+    text-align: center; }
+  #mainNav li {
+    display: block !important;
+    text-align: center; }
+  #hero {
+    min-height: 300px !important; }
+  #video {
+    padding: 2rem 0; }
+  .features {
+    padding-bottom: 1rem; }
+  .features img {
+    margin-bottom: .5rem; }
+  #contact {
+    margin-bottom: 0; } }
